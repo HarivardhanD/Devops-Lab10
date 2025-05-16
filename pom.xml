@@ -24,4 +24,25 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+   <!--Build section:defines how the project should be built-->
+  <build>
+    <plugins>
+      <!--pluginfor creating executable JAR files-->
+  
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>mavem-jar-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <nainClass>com.mavenproject10.project10.App</mainClass>
+            </manifest>
+            </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+      
 </project>
