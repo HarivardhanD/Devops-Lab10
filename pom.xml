@@ -37,7 +37,7 @@
         <configuration>
           <archive>
             <manifest>
-              <nainClass>com.mavenproject10.project10.App</mainClass>
+              <nainClass>com.lab10.maven.App</mainClass>
             </manifest>
             </archive>
         </configuration>
